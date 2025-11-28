@@ -22,7 +22,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font: Helvetica;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -99,8 +99,8 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #ffffff;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, ffffff 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
@@ -120,7 +120,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: ffffff;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -260,7 +260,7 @@ input, select, textarea {
 	code {
 		border-radius: 8px;
 		border: solid 1px;
-		font-family: "Courier New", monospace;
+		font-family: "Helvetica", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -268,7 +268,7 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: "Helvetica", monospace;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -3473,7 +3473,7 @@ input, select, textarea {
 
 		#main input[type="checkbox"] + label,
 		#main input[type="radio"] + label {
-			color: #636363;
+			color: #ffffff;
 		}
 
 			#main input[type="checkbox"] + label:before,
